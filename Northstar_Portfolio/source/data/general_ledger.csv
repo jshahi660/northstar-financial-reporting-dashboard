@@ -1,0 +1,169 @@
+transaction_id,date,description,account_code,account_name,debit,credit,department
+GL-00001,2025-01-05,Revenue entry - Jan 2025,1100,Accounts Receivable,32000,0,General
+GL-00001,2025-01-05,Revenue entry - Jan 2025,4000,Service Revenue,0,32000,General
+GL-00002,2025-01-05,Cost entry - Jan 2025,5000,Cost of Services,9280.0,0,Operations
+GL-00002,2025-01-05,Cost entry - Jan 2025,1000,Operating Checking,0,9280.0,Operations
+GL-00003,2025-01-05,Payroll entry - Jan 2025,5100,Payroll Expense,14500,0,Operations
+GL-00003,2025-01-05,Payroll entry - Jan 2025,1000,Operating Checking,0,14500,Operations
+GL-00004,2025-01-05,Marketing entry - Jan 2025,5200,Marketing Expense,2200,0,Sales & Marketing
+GL-00004,2025-01-05,Marketing entry - Jan 2025,1000,Operating Checking,0,2200,Sales & Marketing
+GL-00005,2025-01-05,Rent entry - Jan 2025,5300,Office Rent,4200,0,Operations
+GL-00005,2025-01-05,Rent entry - Jan 2025,1000,Operating Checking,0,4200,Operations
+GL-00006,2025-01-05,Software entry - Jan 2025,5400,Software & Subscriptions,1150,0,General
+GL-00006,2025-01-05,Software entry - Jan 2025,1000,Operating Checking,0,1150,General
+GL-00007,2025-01-05,Admin entry - Jan 2025,5500,General & Administrative,1800,0,General
+GL-00007,2025-01-05,Admin entry - Jan 2025,1000,Operating Checking,0,1800,General
+GL-00008,2025-02-05,Revenue entry - Feb 2025,1100,Accounts Receivable,35000,0,General
+GL-00008,2025-02-05,Revenue entry - Feb 2025,4000,Service Revenue,0,35000,General
+GL-00009,2025-02-05,Cost entry - Feb 2025,5000,Cost of Services,10360.0,0,Operations
+GL-00009,2025-02-05,Cost entry - Feb 2025,1000,Operating Checking,0,10360.0,Operations
+GL-00010,2025-02-05,Payroll entry - Feb 2025,5100,Payroll Expense,14600,0,Operations
+GL-00010,2025-02-05,Payroll entry - Feb 2025,1000,Operating Checking,0,14600,Operations
+GL-00011,2025-02-05,Marketing entry - Feb 2025,5200,Marketing Expense,2400,0,Sales & Marketing
+GL-00011,2025-02-05,Marketing entry - Feb 2025,1000,Operating Checking,0,2400,Sales & Marketing
+GL-00012,2025-02-05,Rent entry - Feb 2025,5300,Office Rent,4200,0,Operations
+GL-00012,2025-02-05,Rent entry - Feb 2025,1000,Operating Checking,0,4200,Operations
+GL-00013,2025-02-05,Software entry - Feb 2025,5400,Software & Subscriptions,1175,0,General
+GL-00013,2025-02-05,Software entry - Feb 2025,1000,Operating Checking,0,1175,General
+GL-00014,2025-02-05,Admin entry - Feb 2025,5500,General & Administrative,1900,0,General
+GL-00014,2025-02-05,Admin entry - Feb 2025,1000,Operating Checking,0,1900,General
+GL-00015,2025-03-05,Revenue entry - Mar 2025,1100,Accounts Receivable,37000,0,General
+GL-00015,2025-03-05,Revenue entry - Mar 2025,4000,Service Revenue,0,37000,General
+GL-00016,2025-03-05,Cost entry - Mar 2025,5000,Cost of Services,11174.0,0,Operations
+GL-00016,2025-03-05,Cost entry - Mar 2025,1000,Operating Checking,0,11174.0,Operations
+GL-00017,2025-03-05,Payroll entry - Mar 2025,5100,Payroll Expense,14750,0,Operations
+GL-00017,2025-03-05,Payroll entry - Mar 2025,1000,Operating Checking,0,14750,Operations
+GL-00018,2025-03-05,Marketing entry - Mar 2025,5200,Marketing Expense,2100,0,Sales & Marketing
+GL-00018,2025-03-05,Marketing entry - Mar 2025,1000,Operating Checking,0,2100,Sales & Marketing
+GL-00019,2025-03-05,Rent entry - Mar 2025,5300,Office Rent,4200,0,Operations
+GL-00019,2025-03-05,Rent entry - Mar 2025,1000,Operating Checking,0,4200,Operations
+GL-00020,2025-03-05,Software entry - Mar 2025,5400,Software & Subscriptions,1175,0,General
+GL-00020,2025-03-05,Software entry - Mar 2025,1000,Operating Checking,0,1175,General
+GL-00021,2025-03-05,Admin entry - Mar 2025,5500,General & Administrative,1750,0,General
+GL-00021,2025-03-05,Admin entry - Mar 2025,1000,Operating Checking,0,1750,General
+GL-00022,2025-04-05,Revenue entry - Apr 2025,1100,Accounts Receivable,38000,0,General
+GL-00022,2025-04-05,Revenue entry - Apr 2025,4000,Service Revenue,0,38000,General
+GL-00023,2025-04-05,Cost entry - Apr 2025,5000,Cost of Services,11704.0,0,Operations
+GL-00023,2025-04-05,Cost entry - Apr 2025,1000,Operating Checking,0,11704.0,Operations
+GL-00024,2025-04-05,Payroll entry - Apr 2025,5100,Payroll Expense,14900,0,Operations
+GL-00024,2025-04-05,Payroll entry - Apr 2025,1000,Operating Checking,0,14900,Operations
+GL-00025,2025-04-05,Marketing entry - Apr 2025,5200,Marketing Expense,2600,0,Sales & Marketing
+GL-00025,2025-04-05,Marketing entry - Apr 2025,1000,Operating Checking,0,2600,Sales & Marketing
+GL-00026,2025-04-05,Rent entry - Apr 2025,5300,Office Rent,4200,0,Operations
+GL-00026,2025-04-05,Rent entry - Apr 2025,1000,Operating Checking,0,4200,Operations
+GL-00027,2025-04-05,Software entry - Apr 2025,5400,Software & Subscriptions,1200,0,General
+GL-00027,2025-04-05,Software entry - Apr 2025,1000,Operating Checking,0,1200,General
+GL-00028,2025-04-05,Admin entry - Apr 2025,5500,General & Administrative,2000,0,General
+GL-00028,2025-04-05,Admin entry - Apr 2025,1000,Operating Checking,0,2000,General
+GL-00029,2025-05-05,Revenue entry - May 2025,1100,Accounts Receivable,40000,0,General
+GL-00029,2025-05-05,Revenue entry - May 2025,4000,Service Revenue,0,40000,General
+GL-00030,2025-05-05,Cost entry - May 2025,5000,Cost of Services,11600.0,0,Operations
+GL-00030,2025-05-05,Cost entry - May 2025,1000,Operating Checking,0,11600.0,Operations
+GL-00031,2025-05-05,Payroll entry - May 2025,5100,Payroll Expense,15000,0,Operations
+GL-00031,2025-05-05,Payroll entry - May 2025,1000,Operating Checking,0,15000,Operations
+GL-00032,2025-05-05,Marketing entry - May 2025,5200,Marketing Expense,2500,0,Sales & Marketing
+GL-00032,2025-05-05,Marketing entry - May 2025,1000,Operating Checking,0,2500,Sales & Marketing
+GL-00033,2025-05-05,Rent entry - May 2025,5300,Office Rent,4200,0,Operations
+GL-00033,2025-05-05,Rent entry - May 2025,1000,Operating Checking,0,4200,Operations
+GL-00034,2025-05-05,Software entry - May 2025,5400,Software & Subscriptions,1225,0,General
+GL-00034,2025-05-05,Software entry - May 2025,1000,Operating Checking,0,1225,General
+GL-00035,2025-05-05,Admin entry - May 2025,5500,General & Administrative,1950,0,General
+GL-00035,2025-05-05,Admin entry - May 2025,1000,Operating Checking,0,1950,General
+GL-00036,2025-06-05,Revenue entry - Jun 2025,1100,Accounts Receivable,42000,0,General
+GL-00036,2025-06-05,Revenue entry - Jun 2025,4000,Service Revenue,0,42000,General
+GL-00037,2025-06-05,Cost entry - Jun 2025,5000,Cost of Services,12432.0,0,Operations
+GL-00037,2025-06-05,Cost entry - Jun 2025,1000,Operating Checking,0,12432.0,Operations
+GL-00038,2025-06-05,Payroll entry - Jun 2025,5100,Payroll Expense,15200,0,Operations
+GL-00038,2025-06-05,Payroll entry - Jun 2025,1000,Operating Checking,0,15200,Operations
+GL-00039,2025-06-05,Marketing entry - Jun 2025,5200,Marketing Expense,2800,0,Sales & Marketing
+GL-00039,2025-06-05,Marketing entry - Jun 2025,1000,Operating Checking,0,2800,Sales & Marketing
+GL-00040,2025-06-05,Rent entry - Jun 2025,5300,Office Rent,4200,0,Operations
+GL-00040,2025-06-05,Rent entry - Jun 2025,1000,Operating Checking,0,4200,Operations
+GL-00041,2025-06-05,Software entry - Jun 2025,5400,Software & Subscriptions,1250,0,General
+GL-00041,2025-06-05,Software entry - Jun 2025,1000,Operating Checking,0,1250,General
+GL-00042,2025-06-05,Admin entry - Jun 2025,5500,General & Administrative,2100,0,General
+GL-00042,2025-06-05,Admin entry - Jun 2025,1000,Operating Checking,0,2100,General
+GL-00043,2025-07-05,Revenue entry - Jul 2025,1100,Accounts Receivable,43000,0,General
+GL-00043,2025-07-05,Revenue entry - Jul 2025,4000,Service Revenue,0,43000,General
+GL-00044,2025-07-05,Cost entry - Jul 2025,5000,Cost of Services,12986.0,0,Operations
+GL-00044,2025-07-05,Cost entry - Jul 2025,1000,Operating Checking,0,12986.0,Operations
+GL-00045,2025-07-05,Payroll entry - Jul 2025,5100,Payroll Expense,15300,0,Operations
+GL-00045,2025-07-05,Payroll entry - Jul 2025,1000,Operating Checking,0,15300,Operations
+GL-00046,2025-07-05,Marketing entry - Jul 2025,5200,Marketing Expense,2700,0,Sales & Marketing
+GL-00046,2025-07-05,Marketing entry - Jul 2025,1000,Operating Checking,0,2700,Sales & Marketing
+GL-00047,2025-07-05,Rent entry - Jul 2025,5300,Office Rent,4200,0,Operations
+GL-00047,2025-07-05,Rent entry - Jul 2025,1000,Operating Checking,0,4200,Operations
+GL-00048,2025-07-05,Software entry - Jul 2025,5400,Software & Subscriptions,1275,0,General
+GL-00048,2025-07-05,Software entry - Jul 2025,1000,Operating Checking,0,1275,General
+GL-00049,2025-07-05,Admin entry - Jul 2025,5500,General & Administrative,2050,0,General
+GL-00049,2025-07-05,Admin entry - Jul 2025,1000,Operating Checking,0,2050,General
+GL-00050,2025-08-05,Revenue entry - Aug 2025,1100,Accounts Receivable,44500,0,General
+GL-00050,2025-08-05,Revenue entry - Aug 2025,4000,Service Revenue,0,44500,General
+GL-00051,2025-08-05,Cost entry - Aug 2025,5000,Cost of Services,13706.0,0,Operations
+GL-00051,2025-08-05,Cost entry - Aug 2025,1000,Operating Checking,0,13706.0,Operations
+GL-00052,2025-08-05,Payroll entry - Aug 2025,5100,Payroll Expense,15500,0,Operations
+GL-00052,2025-08-05,Payroll entry - Aug 2025,1000,Operating Checking,0,15500,Operations
+GL-00053,2025-08-05,Marketing entry - Aug 2025,5200,Marketing Expense,2900,0,Sales & Marketing
+GL-00053,2025-08-05,Marketing entry - Aug 2025,1000,Operating Checking,0,2900,Sales & Marketing
+GL-00054,2025-08-05,Rent entry - Aug 2025,5300,Office Rent,4200,0,Operations
+GL-00054,2025-08-05,Rent entry - Aug 2025,1000,Operating Checking,0,4200,Operations
+GL-00055,2025-08-05,Software entry - Aug 2025,5400,Software & Subscriptions,1300,0,General
+GL-00055,2025-08-05,Software entry - Aug 2025,1000,Operating Checking,0,1300,General
+GL-00056,2025-08-05,Admin entry - Aug 2025,5500,General & Administrative,2200,0,General
+GL-00056,2025-08-05,Admin entry - Aug 2025,1000,Operating Checking,0,2200,General
+GL-00057,2025-09-05,Revenue entry - Sep 2025,1100,Accounts Receivable,46000,0,General
+GL-00057,2025-09-05,Revenue entry - Sep 2025,4000,Service Revenue,0,46000,General
+GL-00058,2025-09-05,Cost entry - Sep 2025,5000,Cost of Services,13340.0,0,Operations
+GL-00058,2025-09-05,Cost entry - Sep 2025,1000,Operating Checking,0,13340.0,Operations
+GL-00059,2025-09-05,Payroll entry - Sep 2025,5100,Payroll Expense,15700,0,Operations
+GL-00059,2025-09-05,Payroll entry - Sep 2025,1000,Operating Checking,0,15700,Operations
+GL-00060,2025-09-05,Marketing entry - Sep 2025,5200,Marketing Expense,3000,0,Sales & Marketing
+GL-00060,2025-09-05,Marketing entry - Sep 2025,1000,Operating Checking,0,3000,Sales & Marketing
+GL-00061,2025-09-05,Rent entry - Sep 2025,5300,Office Rent,4200,0,Operations
+GL-00061,2025-09-05,Rent entry - Sep 2025,1000,Operating Checking,0,4200,Operations
+GL-00062,2025-09-05,Software entry - Sep 2025,5400,Software & Subscriptions,1325,0,General
+GL-00062,2025-09-05,Software entry - Sep 2025,1000,Operating Checking,0,1325,General
+GL-00063,2025-09-05,Admin entry - Sep 2025,5500,General & Administrative,2150,0,General
+GL-00063,2025-09-05,Admin entry - Sep 2025,1000,Operating Checking,0,2150,General
+GL-00064,2025-10-05,Revenue entry - Oct 2025,1100,Accounts Receivable,47500,0,General
+GL-00064,2025-10-05,Revenue entry - Oct 2025,4000,Service Revenue,0,47500,General
+GL-00065,2025-10-05,Cost entry - Oct 2025,5000,Cost of Services,14060.0,0,Operations
+GL-00065,2025-10-05,Cost entry - Oct 2025,1000,Operating Checking,0,14060.0,Operations
+GL-00066,2025-10-05,Payroll entry - Oct 2025,5100,Payroll Expense,15800,0,Operations
+GL-00066,2025-10-05,Payroll entry - Oct 2025,1000,Operating Checking,0,15800,Operations
+GL-00067,2025-10-05,Marketing entry - Oct 2025,5200,Marketing Expense,3100,0,Sales & Marketing
+GL-00067,2025-10-05,Marketing entry - Oct 2025,1000,Operating Checking,0,3100,Sales & Marketing
+GL-00068,2025-10-05,Rent entry - Oct 2025,5300,Office Rent,4200,0,Operations
+GL-00068,2025-10-05,Rent entry - Oct 2025,1000,Operating Checking,0,4200,Operations
+GL-00069,2025-10-05,Software entry - Oct 2025,5400,Software & Subscriptions,1350,0,General
+GL-00069,2025-10-05,Software entry - Oct 2025,1000,Operating Checking,0,1350,General
+GL-00070,2025-10-05,Admin entry - Oct 2025,5500,General & Administrative,2300,0,General
+GL-00070,2025-10-05,Admin entry - Oct 2025,1000,Operating Checking,0,2300,General
+GL-00071,2025-11-05,Revenue entry - Nov 2025,1100,Accounts Receivable,49000,0,General
+GL-00071,2025-11-05,Revenue entry - Nov 2025,4000,Service Revenue,0,49000,General
+GL-00072,2025-11-05,Cost entry - Nov 2025,5000,Cost of Services,14798.0,0,Operations
+GL-00072,2025-11-05,Cost entry - Nov 2025,1000,Operating Checking,0,14798.0,Operations
+GL-00073,2025-11-05,Payroll entry - Nov 2025,5100,Payroll Expense,16000,0,Operations
+GL-00073,2025-11-05,Payroll entry - Nov 2025,1000,Operating Checking,0,16000,Operations
+GL-00074,2025-11-05,Marketing entry - Nov 2025,5200,Marketing Expense,3300,0,Sales & Marketing
+GL-00074,2025-11-05,Marketing entry - Nov 2025,1000,Operating Checking,0,3300,Sales & Marketing
+GL-00075,2025-11-05,Rent entry - Nov 2025,5300,Office Rent,4200,0,Operations
+GL-00075,2025-11-05,Rent entry - Nov 2025,1000,Operating Checking,0,4200,Operations
+GL-00076,2025-11-05,Software entry - Nov 2025,5400,Software & Subscriptions,1375,0,General
+GL-00076,2025-11-05,Software entry - Nov 2025,1000,Operating Checking,0,1375,General
+GL-00077,2025-11-05,Admin entry - Nov 2025,5500,General & Administrative,2400,0,General
+GL-00077,2025-11-05,Admin entry - Nov 2025,1000,Operating Checking,0,2400,General
+GL-00078,2025-12-05,Revenue entry - Dec 2025,1100,Accounts Receivable,52000,0,General
+GL-00078,2025-12-05,Revenue entry - Dec 2025,4000,Service Revenue,0,52000,General
+GL-00079,2025-12-05,Cost entry - Dec 2025,5000,Cost of Services,16016.0,0,Operations
+GL-00079,2025-12-05,Cost entry - Dec 2025,1000,Operating Checking,0,16016.0,Operations
+GL-00080,2025-12-05,Payroll entry - Dec 2025,5100,Payroll Expense,16300,0,Operations
+GL-00080,2025-12-05,Payroll entry - Dec 2025,1000,Operating Checking,0,16300,Operations
+GL-00081,2025-12-05,Marketing entry - Dec 2025,5200,Marketing Expense,3600,0,Sales & Marketing
+GL-00081,2025-12-05,Marketing entry - Dec 2025,1000,Operating Checking,0,3600,Sales & Marketing
+GL-00082,2025-12-05,Rent entry - Dec 2025,5300,Office Rent,4200,0,Operations
+GL-00082,2025-12-05,Rent entry - Dec 2025,1000,Operating Checking,0,4200,Operations
+GL-00083,2025-12-05,Software entry - Dec 2025,5400,Software & Subscriptions,1400,0,General
+GL-00083,2025-12-05,Software entry - Dec 2025,1000,Operating Checking,0,1400,General
+GL-00084,2025-12-05,Admin entry - Dec 2025,5500,General & Administrative,2600,0,General
+GL-00084,2025-12-05,Admin entry - Dec 2025,1000,Operating Checking,0,2600,General

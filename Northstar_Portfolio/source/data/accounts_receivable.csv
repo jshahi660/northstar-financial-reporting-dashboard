@@ -1,0 +1,37 @@
+invoice_id,customer,invoice_date,due_date,invoice_amount,amount_paid,open_balance,status,days_overdue
+AR-2025-0001,Apex Retail Group,2025-01-08,2025-02-07,1850,1850,0,Paid,0
+AR-2025-0002,Blue Oak Medical,2025-01-17,2025-02-16,2400,2400,0,Paid,0
+AR-2025-0003,Cedar Peak Logistics,2025-01-26,2025-02-25,3200,0,3200,Overdue,324
+AR-2025-0004,Delta Design Studio,2025-02-04,2025-03-06,4100,0,4100,Overdue,315
+AR-2025-0005,Evergreen Hospitality,2025-02-13,2025-03-15,2750,0,2750,Overdue,306
+AR-2025-0006,Frontier Learning Co.,2025-02-22,2025-03-24,5600,5600,0,Paid,0
+AR-2025-0007,Granite Property Partners,2025-03-03,2025-04-02,1950,1950,0,Paid,0
+AR-2025-0008,Harborview Consulting,2025-03-12,2025-04-11,3650,3650,0,Paid,0
+AR-2025-0009,Ironwood Manufacturing,2025-03-21,2025-04-20,4800,0,4800,Overdue,270
+AR-2025-0010,Juniper Food Markets,2025-03-30,2025-04-29,2250,0,2250,Overdue,261
+AR-2025-0011,Keystone Wellness,2025-04-08,2025-05-08,6100,6100,0,Paid,0
+AR-2025-0012,Lighthouse Media,2025-04-17,2025-05-17,2900,2900,0,Paid,0
+AR-2025-0013,Apex Retail Group,2025-04-26,2025-05-26,1850,0,1850,Overdue,234
+AR-2025-0014,Blue Oak Medical,2025-05-05,2025-06-04,2400,0,2400,Overdue,225
+AR-2025-0015,Cedar Peak Logistics,2025-05-14,2025-06-13,3200,3200,0,Paid,0
+AR-2025-0016,Delta Design Studio,2025-05-23,2025-06-22,4100,4100,0,Paid,0
+AR-2025-0017,Evergreen Hospitality,2025-06-01,2025-07-01,2750,2750,0,Paid,0
+AR-2025-0018,Frontier Learning Co.,2025-06-10,2025-07-10,5600,0,5600,Overdue,189
+AR-2025-0019,Granite Property Partners,2025-06-19,2025-07-19,1950,0,1950,Overdue,180
+AR-2025-0020,Harborview Consulting,2025-06-28,2025-07-28,3650,0,3650,Overdue,171
+AR-2025-0021,Ironwood Manufacturing,2025-07-07,2025-08-06,4800,4800,0,Paid,0
+AR-2025-0022,Juniper Food Markets,2025-07-16,2025-08-15,2250,2250,0,Paid,0
+AR-2025-0023,Keystone Wellness,2025-07-25,2025-08-24,6100,0,6100,Overdue,144
+AR-2025-0024,Lighthouse Media,2025-08-03,2025-09-02,2900,2900,0,Paid,0
+AR-2025-0025,Apex Retail Group,2025-08-12,2025-09-11,1850,0,1850,Overdue,126
+AR-2025-0026,Blue Oak Medical,2025-08-21,2025-09-20,2400,2400,0,Paid,0
+AR-2025-0027,Cedar Peak Logistics,2025-08-30,2025-09-29,3200,3200,0,Paid,0
+AR-2025-0028,Delta Design Studio,2025-09-08,2025-10-08,4100,0,4100,Overdue,99
+AR-2025-0029,Evergreen Hospitality,2025-09-17,2025-10-17,2750,0,2750,Overdue,90
+AR-2025-0030,Frontier Learning Co.,2025-09-26,2025-10-26,5600,0,5600,Overdue,81
+AR-2025-0031,Granite Property Partners,2025-10-05,2025-11-04,1950,1950,0,Paid,0
+AR-2025-0032,Harborview Consulting,2025-10-14,2025-11-13,3650,3650,0,Paid,0
+AR-2025-0033,Ironwood Manufacturing,2025-10-23,2025-11-22,4800,0,4800,Overdue,54
+AR-2025-0034,Juniper Food Markets,2025-11-01,2025-12-01,2250,0,2250,Overdue,45
+AR-2025-0035,Keystone Wellness,2025-11-10,2025-12-10,6100,0,6100,Overdue,36
+AR-2025-0036,Lighthouse Media,2025-11-19,2025-12-19,2900,2900,0,Paid,0

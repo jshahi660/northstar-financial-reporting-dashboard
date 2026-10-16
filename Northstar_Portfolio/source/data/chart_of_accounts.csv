@@ -1,0 +1,17 @@
+account_code,account_name,account_type,normal_balance,illustrative_year_end_balance
+1000,Operating Checking,Asset,Debit,78500.0
+1100,Accounts Receivable,Asset,Debit,66100.0
+1200,Prepaid Expenses,Asset,Debit,8400.0
+1500,"Equipment, net",Asset,Debit,68500.0
+2000,Accounts Payable,Liability,Credit,12470.0
+2100,Accrued Payroll,Liability,Credit,12400.0
+2200,Business Credit Line,Liability,Credit,18000.0
+3000,Owner's Equity,Equity,Credit,95000.0
+3100,Retained Earnings,Equity,Credit,83630.0
+4000,Service Revenue,Revenue,Credit,
+5000,Cost of Services,Expense,Debit,
+5100,Payroll Expense,Expense,Debit,
+5200,Marketing Expense,Expense,Debit,
+5300,Office Rent,Expense,Debit,
+5400,Software & Subscriptions,Expense,Debit,
+5500,General & Administrative,Expense,Debit,

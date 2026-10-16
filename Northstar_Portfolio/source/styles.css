@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--ink:#18243a;--muted:#748096;--line:#e7ebf2;--canvas:#f5f7fb;--white:#fff;--blue:#3769e8;--green:#16845b;--amber:#c17b12;--violet:#7658d8;--radius:16px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--canvas);color:var(--ink);font-family:"DM Sans",Arial,sans-serif;font-size:14px;line-height:1.5}.sidebar{position:fixed;inset:0 auto 0 0;width:238px;background:#101c32;color:#dce5f5;padding:27px 17px;display:flex;flex-direction:column;z-index:2}.brand{display:flex;gap:11px;align-items:center;font:800 19px Manrope,sans-serif;letter-spacing:-.5px;margin:0 8px 47px}.brand-mark{width:35px;height:35px;display:grid;place-items:center;border-radius:11px;background:#4775ef;color:white}.brand small{display:block;color:#8fa1c0;font:600 8px "DM Sans",sans-serif;letter-spacing:1.3px;margin-top:2px}.nav-label{font-size:10px;font-weight:700;letter-spacing:1.5px;color:#7586a6;padding:0 12px 12px}.nav-item{color:#9eacc6;text-decoration:none;padding:12px 13px;border-radius:10px;display:flex;gap:12px;align-items:center;margin-bottom:5px;font-weight:500}.nav-item.active,.nav-item:hover{background:#203252;color:white}.sidebar-note{margin-top:auto;border:1px solid #2a3a58;background:#172640;border-radius:12px;padding:14px;font-size:11px;color:#9baaca}.sidebar-note p{line-height:1.6;margin:8px 0 0}.status-dot{display:inline-block;width:7px;height:7px;background:#55c89b;border-radius:50%;margin-right:6px}.main-content{margin-left:238px;max-width:1600px;padding:34px clamp(22px,4vw,58px) 24px}.topbar,.section-heading{display:flex;justify-content:space-between;align-items:center;gap:18px}.topbar{margin-bottom:24px}.eyebrow{color:var(--blue);font-size:10px;letter-spacing:1.7px;font-weight:700;margin:0 0 7px}.topbar h1{font:800 clamp(25px,3vw,34px) Manrope,sans-serif;letter-spacing:-1.1px;margin:0}.subhead{color:var(--muted);margin:6px 0 0}.print-button{border:1px solid #dce3ef;background:white;color:#263750;padding:11px 15px;border-radius:10px;font:600 12px "DM Sans",sans-serif;cursor:pointer}.notice{border:1px solid #f0d9a9;background:#fff8e8;color:#72521d;border-radius:10px;padding:11px 14px;font-size:12px;margin-bottom:28px}.notice strong{font-size:10px;letter-spacing:.8px;margin-right:9px}.section{margin:0 0 30px;scroll-margin-top:20px}.section-heading{align-items:end;margin-bottom:15px}.section-heading h2{font:700 19px Manrope,sans-serif;letter-spacing:-.4px;margin:0}.section-heading p{color:var(--muted);font-size:12px;margin:5px 0 0}.period-chip,.chart-badge{border:1px solid var(--line);background:white;border-radius:8px;padding:6px 10px;color:#59667c;font-size:11px;font-weight:600;white-space:nowrap}.kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.kpi-card,.panel{background:white;border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 3px 12px #172a4c08}.kpi-card{padding:19px 18px;min-width:0}.kpi-top{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#66738a;font-size:12px;font-weight:600}.kpi-icon{display:grid;place-items:center;width:32px;height:32px;border-radius:10px;font-weight:700;font-size:15px}.blue{background:#eaf0ff;color:var(--blue)}.amber{background:#fff2dc;color:var(--amber)}.green{background:#e3f7ee;color:var(--green)}.violet{background:#f0ebff;color:var(--violet)}.kpi-card>strong{display:block;font:800 clamp(20px,2.2vw,27px) Manrope,sans-serif;letter-spacing:-.8px;margin:15px 0 13px;white-space:nowrap}.kpi-foot{border-top:1px solid #f0f2f6;padding-top:11px;display:flex;justify-content:space-between;gap:8px;color:#8791a3;font-size:10px}.positive{color:var(--green);font-weight:700}.muted{color:var(--muted)}.panel{padding:19px}.chart-panel{padding:22px 22px 14px}.chart-summary,.panel-title{display:flex;align-items:center;justify-content:space-between;gap:12px}.chart-summary span{display:block;font-size:11px}.chart-summary strong{display:block;font:700 14px Manrope,sans-serif;margin-top:3px}.bar-chart{height:245px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(5px,1.5vw,16px);align-items:end;padding:25px 5px 0;border-bottom:1px solid var(--line);margin-top:10px}.bar-group{height:100%;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:9px;min-width:0}.bars{width:100%;max-width:37px;height:calc(100% - 22px);display:flex;align-items:end;justify-content:center;gap:3px}.bar{width:45%;min-width:5px;border-radius:5px 5px 0 0;min-height:3px}.bar.rev{background:#4774ed}.bar.exp{background:#a9b9dc}.month-label{font-size:10px;color:#7a879c;padding-bottom:8px}.legend{display:flex;align-items:center;gap:7px;color:#748096;font-size:10px;white-space:nowrap}.legend i{display:inline-block;width:8px;height:8px;border-radius:3px}.legend-revenue{background:#4774ed}.legend-expenses{background:#a9b9dc;margin-left:8px}.chart-foot{display:flex;justify-content:space-between;gap:12px;padding-top:12px;color:#8993a4;font-size:10px}.table-panel{padding:0;overflow:hidden}.table-wrap{overflow-x:auto;width:100%}table{width:100%;border-collapse:collapse;white-space:nowrap;font-size:12px}th{text-align:left;color:#7d889b;font-size:10px;letter-spacing:.4px;text-transform:uppercase;background:#fafbfd;font-weight:700}th,td{padding:13px 17px;border-bottom:1px solid #edf0f5}td{color:#45536a}tbody tr:last-child td{border-bottom:0}td:last-child,th:last-child{text-align:right}.amount{font-variant-numeric:tabular-nums;font-weight:600;color:#24344e}.total-row td{background:#f7f9fd;font-weight:700;color:#1e2d46}.two-column{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel-title{margin-bottom:12px}.panel-title h3{font:700 14px Manrope,sans-serif;margin:0}.panel-title p{font-size:11px;color:var(--muted);margin:4px 0 0}.pill{border-radius:7px;padding:5px 8px;font-size:10px;font-weight:700}.blue-pill{background:#eaf0ff;color:var(--blue)}.amber-pill{background:#fff2dc;color:var(--amber)}.status{font-size:10px;font-weight:700;padding:4px 7px;border-radius:6px}.status.overdue{background:#fff0ed;color:#bd4b36}.status.open{background:#fff6df;color:#a56b0c}.status.paid{background:#e6f7ef;color:#16845b}footer{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding-top:18px;color:#8993a4;font-size:10px;margin-top:34px}
+@media(max-width:1100px){.sidebar{width:205px}.main-content{margin-left:205px;padding:28px 24px}.kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.two-column{grid-template-columns:1fr}}
+@media(max-width:680px){.sidebar{position:static;width:auto;height:auto;padding:13px 16px;display:block}.brand{margin:0;font-size:17px}.brand-mark{width:31px;height:31px}.nav-label,.sidebar-note,.sidebar .nav-item{display:none}.main-content{margin:0;padding:23px 14px}.topbar{align-items:flex-start}.topbar h1{font-size:25px}.print-button {
+    padding: 10px 12px;
+    font-size: 12px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}.subhead{font-size:12px}.notice{font-size:11px}.section-heading{align-items:flex-start;flex-direction:column;gap:10px}.kpi-grid{gap:10px}.kpi-card{padding:14px 12px}.kpi-top{font-size:11px;align-items:flex-start}.kpi-icon{width:27px;height:27px}.kpi-card>strong{font-size:20px;margin:12px 0}.kpi-foot{font-size:9px;flex-wrap:wrap}.chart-panel,.panel{padding:14px}.bar-chart{gap:4px;height:205px}.month-label{font-size:9px}.chart-foot{font-size:9px}.two-column{gap:12px}th,td{padding:11px 12px}footer{flex-direction:column;gap:5px}}
+@media(max-width:380px){.kpi-grid{grid-template-columns:1fr}.kpi-card>strong{font-size:24px}.bar-chart{gap:2px}.month-label{font-size:8px}}
+
+/* Balance sheet summary */
+.balance-sheet-panel {
+    padding: 22px;
+}
+
+.balance-sheet-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.balance-metric {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    min-width: 0;
+    padding: 18px;
+    border: 1px solid #e3eaf3;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.balance-metric span {
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.balance-metric strong {
+    font-size: clamp(18px, 2vw, 25px);
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+    font-variant-numeric: tabular-nums;
+}
+
+.balance-metric.assets {
+    background: #f0f7ff;
+    border-color: #bfdbfe;
+}
+
+.balance-metric.assets strong {
+    color: #1d4ed8;
+}
+
+.balance-metric.liabilities {
+    background: #fff8ed;
+    border-color: #fed7aa;
+}
+
+.balance-metric.liabilities strong {
+    color: #c2410c;
+}
+
+.balance-metric.equity {
+    background: #effcf6;
+    border-color: #a7f3d0;
+}
+
+.balance-metric.equity strong {
+    color: #047857;
+}
+
+.balance-metric.combined {
+    background: #f5f3ff;
+    border-color: #ddd6fe;
+}
+
+.balance-metric.combined strong {
+    color: #6d28d9;
+}
+
+.balance-metric.difference {
+    background: #fff1f2;
+    border-color: #fecdd3;
+}
+
+.balance-metric.difference strong {
+    color: #be123c;
+}
+
+.balance-sheet-status {
+    margin-top: 16px;
+    padding: 13px 16px;
+    border-radius: 9px;
+    background: #f8fafc;
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.balance-sheet-status.warning {
+    background: #fff1f2;
+    color: #be123c;
+    border: 1px solid #fecdd3;
+}
+
+.balance-sheet-status.pass {
+    background: #ecfdf5;
+    color: #047857;
+    border: 1px solid #a7f3d0;
+}
+
+@media (max-width: 1000px) {
+    .balance-sheet-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .balance-sheet-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .balance-sheet-panel {
+        padding: 14px;
+    }
+
+    .balance-metric {
+        padding: 13px;
+    }
+}
+
+@media print {
+    .balance-sheet-panel {
+        break-inside: avoid;
+        box-shadow: none;
+    }
+
+    .balance-sheet-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+
+/* Monthly financial detail table */
+.monthly-detail-panel {
+    margin-top: 16px;
+}
+
+.monthly-detail-panel .table-heading {
+    padding: 20px 22px 10px;
+}
+
+.monthly-detail-panel .table-heading h3 {
+    margin: 0 0 6px;
+    font-size: 16px;
+}
+
+.monthly-detail-panel .table-heading p {
+    margin: 0;
+    color: var(--muted, #64748b);
+    font-size: 12px;
+}
+
+.monthly-detail-panel td:not(:first-child),
+.monthly-detail-panel th:not(:first-child) {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
