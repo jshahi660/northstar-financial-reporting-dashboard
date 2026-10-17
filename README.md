@@ -39,7 +39,6 @@ The aim is to make key financial indicators easier to review while keeping the u
 
 ### Executive summary
 ![Executive Summary](Northstar_Portfolio/screenshots/executive_summary.png)
-
 ### Monthly Financial Details
 ![Monthly Financial Details](Northstar_Portfolio/screenshots/monthly_financial_details.png)
 
