@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/002abf49-56d1-466c-8c44-a6d446b9fb39" /># Northstar Financial Reporting Dashboard
-
 A portfolio project demonstrating end-to-end financial reporting, data validation, reconciliation checks, and interactive dashboard development using HTML, CSS, JavaScript, JSON, and CSV.
 
 **Portfolio project · Fictional business data · Not an audited financial statement**
