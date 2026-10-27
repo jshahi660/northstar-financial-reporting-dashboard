@@ -103,13 +103,14 @@ To demonstrate the data preparation and reconciliation process behind this dashb
 *Standardized dates, clean categories, and ready for calculations.*
 ![Clean Transactions](Northstar_Portfolio/source/data/clean_transactions.png)
 
-**3. QA Reconciliation Checks**
-*Proving that the cleaned data perfectly matches the final PDF report.*
-![QA Checks](Northstar_Portfolio/source/data/qa_check.png)
 
-**4. Monthly Summary & Profit/Loss**
+**3. Monthly Summary & Profit/Loss**
 ![Monthly Summary](Northstar_Portfolio/source/data/monthly_summary.png)
 ![Profit and Loss](Northstar_Portfolio/source/data/profit_and_loss_summary.png)
+
+**4. QA Reconciliation Checks**
+*Proving that the cleaned data perfectly matches the final PDF report.*
+![QA Checks](Northstar_Portfolio/source/data/qa_check.png)
 
 ---
 
