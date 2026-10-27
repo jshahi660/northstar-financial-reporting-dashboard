@@ -1,10 +1,13 @@
+# 🚀 [CLICK HERE TO VIEW THE LIVE INTERACTIVE DASHBOARD](https://jshahi660.github.io/northstar-financial-reporting-dashboard/Northstar_Portfolio/source/index.html)
+
+---
+
 A portfolio project demonstrating end-to-end financial reporting, data validation, reconciliation checks, and interactive dashboard development using HTML, CSS, JavaScript, JSON, and CSV.
 
 **Portfolio project · Fictional business data · Not an audited financial statement**
 
 ## Project links
 
-- **Live Dashboard:** [View Live Dashboard](https://jshahi660.github.io/northstar-financial-reporting-dashboard/)
 - **PDF Report:** [Download PDF Report](https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/Northstar%20_%20Financial%20Performance%20Report.pdf)
 - **Case Study:** [Read Case Study](https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/CASE_STUDY.md)
 - **Source Code:** [View Source Code](https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/source)
@@ -37,11 +40,11 @@ The aim is to make key financial indicators easier to review while keeping the u
 
 ### Executive summary
 ![Executive Summary](Northstar_Portfolio/screenshots/executive_summary.png)
+
 ### Monthly Financial Details
 ![Monthly Financial Details](Northstar_Portfolio/screenshots/monthly_financial_details.png)
 
 ### Additional dashboard views
-
 Browse the `Northstar_Portfolio/screenshots/` folder for the remaining screenshots. Confirm the filenames match the links before publishing.
 
 ## Features demonstrated
@@ -102,7 +105,6 @@ To demonstrate the data preparation and reconciliation process behind this dashb
 **2. The Clean Transactions (After)**
 *Standardized dates, clean categories, and ready for calculations.*
 ![Clean Transactions](Northstar_Portfolio/source/data/clean_transactions.png)
-
 
 **3. Monthly Summary & Profit/Loss**
 ![Monthly Summary](Northstar_Portfolio/source/data/monthly_summary.png)
