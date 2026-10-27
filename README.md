@@ -1,4 +1,4 @@
-# Northstar Financial Reporting Dashboard
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/002abf49-56d1-466c-8c44-a6d446b9fb39" /># Northstar Financial Reporting Dashboard
 
 A portfolio project demonstrating end-to-end financial reporting, data validation, reconciliation checks, and interactive dashboard development using HTML, CSS, JavaScript, JSON, and CSV.
 
@@ -82,6 +82,17 @@ I built this as an independent portfolio project to demonstrate my approach to o
 
 The focus is on clear reporting, traceable figures, and validation—not on claiming client outcomes.
 
-## Disclaimer
+
+## Data Cleanup & Spreadsheet Demo
+To demonstrate the data preparation and reconciliation process behind this dashboard, a simulated Excel workbook is provided. 
+
+* **Download the Demo Excel File:** [Northstar Spreadsheet Cleanup Demo](./Northstar_Spreadsheet_Cleanup_Portfolio_Demo.xlsx)
+
+**What is inside the Excel file?**
+* `RAW_MESSY`: The original, unstructured data with mixed dates and typos.
+* `CLEAN_TRANSACTIONS`: The standardized, deduplicated data.
+* `QA_CHECKS`: The reconciliation checks ensuring Total Revenue equals $506,000 and Expenses equal $459,006.
+
+* ## Disclaimer
 
 Northstar is a fictional business used for demonstration purposes. The data and financial results are illustrative, not audited, and should not be interpreted as investment, accounting, tax, or financial advice.
