@@ -1,1 +1,122 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Fictional annual financial performance report portfolio project."><title>Northstar | Financial Performance Report</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="print.css" media="print"></head>
+<body><div class="app-shell"><aside class="sidebar"><div class="brand"><span class="brand-mark">N</span><span>northstar<small>FINANCE & ANALYTICS</small></span></div><div class="nav-label">WORKSPACE</div><a class="nav-item active" href="#overview">▦ <span>Overview</span></a><a class="nav-item" href="#performance">↗ <span>Performance</span></a><a class="nav-item" href="#statements">▤ <span>Statements</span></a><a class="nav-item" href="#working-capital">◷ <span>Working capital</span></a><div class="sidebar-note"><span class="status-dot"></span> Sample environment<p>All figures are fictional and for portfolio demonstration only.</p></div></aside>
+<main class="main-content"><header class="topbar"><div><p class="eyebrow">FINANCIAL REPORT / FY2025</p><h1>Business performance</h1><p class="subhead">Annual overview · January–December 2025</p></div><button class="print-button" onclick="window.print()">↧ <span>Export / Print</span></button></header>
+<section id="overview" class="section"><div class="section-heading"><div><h2>Executive overview</h2><p>Key financial indicators for the reporting year.</p></div><span class="period-chip">FY 2025</span></div><div class="kpi-grid">
+  <article class="kpi-card">
+    <div class="kpi-top"><span>Total revenue</span><span class="kpi-icon blue">$</span></div>
+    <strong id="revenueKpi">$0</strong>
+    <div class="kpi-foot"><span class="positive">+8.4%</span><span>vs. prior year (illustrative)</span></div>
+  </article>
 
+  <article class="kpi-card">
+    <div class="kpi-top"><span>Total expenses</span><span class="kpi-icon amber">-</span></div>
+    <strong id="expensesKpi">$0</strong>
+    <div class="kpi-foot"><span class="muted">Operating costs</span><span>FY 2025</span></div>
+  </article>
+
+  <article class="kpi-card">
+    <div class="kpi-top"><span>Net operating profit</span><span class="kpi-icon green">+</span></div>
+    <strong id="profitKpi">$0</strong>
+    <div class="kpi-foot"><span class="positive" id="marginKpi">0%</span><span>Profit margin</span></div>
+  </article>
+
+  <article class="kpi-card">
+    <div class="kpi-top"><span>Open receivables</span><span class="kpi-icon violet">AR</span></div>
+    <strong id="arKpi">$0</strong>
+    <div class="kpi-foot"><span class="muted">Customer invoices</span><span>Accounts receivable</span></div>
+  </article>
+
+  <article class="kpi-card">
+    <div class="kpi-top"><span>Open payables</span><span class="kpi-icon amber">AP</span></div>
+    <strong id="apKpi">$0</strong>
+    <div class="kpi-foot"><span class="muted">Supplier bills</span><span>Accounts payable</span></div>
+  </article>
+</div>
+</section>
+<section id="performance" class="section"><div class="section-heading"><div><h2>Revenue & profitability</h2><p>Monthly revenue compared with operating expenses.</p></div><span class="legend"><i class="legend-revenue"></i> Revenue <i class="legend-expenses"></i> Expenses</span></div><article class="panel chart-panel"><div class="chart-summary"><div><span class="muted">Revenue trend</span><strong>Monthly performance</strong></div><span class="chart-badge">12 periods</span></div><div id="revenueChart" class="bar-chart" aria-label="Monthly revenue and expenses chart"></div><div class="chart-foot"><span>Source: illustrative monthly financial data</span><span>Amounts in USD</span></div></article>
+  <article class="panel table-panel monthly-detail-panel">
+    <div class="table-heading">
+      <h3>Monthly financial details</h3>
+      <p>Revenue, expenses and net profit by month. Amounts in USD.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Revenue</th>
+            <th>Expenses</th>
+            <th>Net profit</th>
+          </tr>
+        </thead>
+        <tbody id="monthlyDetailsTable"></tbody>
+      </table>
+    </div>
+  </article>
+</section>
+<section id="statements" class="section"><div class="section-heading"><div><h2>Profit & loss summary</h2><p>Annual totals from the sample accounting dataset.</p></div></div><article class="panel table-panel"><div class="table-wrap"><table><thead><tr><th>Account</th><th>FY 2025</th><th>Share of revenue</th></tr></thead><tbody id="pnlTable"></tbody></table></div></article></section>
+
+<!-- BALANCE SHEET -->
+<section id="balance-sheet" class="section">
+    <div class="section-heading">
+        <div>
+            <h2>Balance sheet</h2>
+            <p>Financial position as of December 31, 2025.</p>
+        </div>
+        <span class="period-chip">FY 2025</span>
+    </div>
+
+    <article class="panel balance-sheet-panel">
+        <div class="balance-sheet-grid">
+            <div class="balance-metric assets">
+                <span>Total assets</span>
+                <strong id="totalAssets">$0</strong>
+            </div>
+
+            <div class="balance-metric liabilities">
+                <span>Total liabilities</span>
+                <strong id="totalLiabilities">$0</strong>
+            </div>
+
+            <div class="balance-metric equity">
+                <span>Total equity</span>
+                <strong id="totalEquity">$0</strong>
+            </div>
+
+            <div class="balance-metric combined">
+                <span>Liabilities + equity</span>
+                <strong id="totalLiabilitiesEquity">$0</strong>
+            </div>
+
+            <div class="balance-metric difference">
+                <span>Balance difference</span>
+                <strong id="balanceDifference">$0</strong>
+            </div>
+        </div>
+
+        <div id="balanceSheetStatus"
+             class="balance-sheet-status"
+             role="status"
+             aria-live="polite">
+            Checking balance sheet...
+        </div>
+    </article>
+</section>
+<section id="working-capital" class="section"><div class="section-heading"><div><h2>Working capital snapshot</h2><p class="snapshot-date">As of December 31, 2025</p><p>Selected open invoices and supplier bills.</p></div></div><div class="two-column"><article class="panel"><div class="panel-title"><div><h3>Accounts receivable</h3><p>Customer balances</p></div><span class="pill blue-pill">AR</span></div><div class="table-wrap"><table><thead><tr><th>Customer</th><th>Due date</th><th>Open</th><th>Status</th></tr></thead><tbody id="arTable"></tbody></table></div></article><article class="panel"><div class="panel-title"><div><h3>Accounts payable</h3><p>Supplier balances</p></div><span class="pill amber-pill">AP</span></div><div class="table-wrap"><table><thead><tr><th>Supplier</th><th>Due date</th><th>Open</th><th>Status</th></tr></thead><tbody id="apTable"></tbody></table></div></article></div></section>
+
+<footer>
+    <div class="footer-meta">
+        <span>Northstar Business Services LLC · Portfolio demonstration</span>
+        <span>Illustrative financial data · FY2025 · Not audited</span>
+    </div>
+    <p class="report-disclaimer">
+        <strong>Disclaimer:</strong>
+        Fictional portfolio dataset. Not audited financial information.
+    </p>
+</footer>
+</main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
