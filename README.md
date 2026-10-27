@@ -4,11 +4,11 @@ A portfolio project demonstrating end-to-end financial reporting, data validatio
 
 ## Project links
 
-- **Live Dashboard:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio]
-- **PDF Report:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/Northstar%20_%20Financial%20Performance%20Report.pdf]
-- **Case Study:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/CASE_STUDY.md]
-- **Source Code:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/source]
-- **Screenshots:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/screenshots]
+- **Live Dashboard:** https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio
+- **PDF Report:** https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/Northstar%20_%20Financial%20Performance%20Report.pdf
+- **Case Study:** https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/CASE_STUDY.md
+- **Source Code:** https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/source
+- **Screenshots:** https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/screenshots
 
 ## Project overview
 
