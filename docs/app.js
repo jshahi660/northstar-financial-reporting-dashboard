@@ -277,7 +277,7 @@ function auditBalanceSheet(data) {
 
 async function init() {
     // 1. Fetch the data
-    const response = await fetch("Northstar_Portfolio/source/data/dashboard-data.json");
+    const response = await fetch("dashboard-data.json");
 
     if (!response.ok) {
         throw new Error(`Could not load dashboard data: HTTP ${response.status}`);
