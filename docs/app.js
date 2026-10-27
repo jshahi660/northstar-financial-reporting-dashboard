@@ -276,133 +276,62 @@ function auditBalanceSheet(data) {
 
 
 async function init() {
+    // 1. Fetch the data
     const response = await fetch("Northstar_Portfolio/source/data/dashboard-data.json");
 
     if (!response.ok) {
-        throw new Error(
-            `Could not load dashboard data: HTTP ${response.status}`
-        );
+        throw new Error(`Could not load dashboard data: HTTP ${response.status}`);
     }
 
     const d = await response.json();
 
-    
-    auditOpenBalances(d);
-
-    auditBalanceSheet(d);
-
-    if (!d.annual || !Array.isArray(d.monthly)) {
-        throw new Error(
-            "dashboard-data.json is missing the annual or monthly data."
-        );
+    // 2. Run Audits safely (so they don't crash the page if an ID is missing)
+    try {
+        auditOpenBalances(d);
+        auditBalanceSheet(d);
+        auditAnnualTotals(d);
+        auditExpenseCategories(d);
+    } catch (error) {
+        console.warn("A background audit failed, but continuing to render data:", error);
     }
 
-    
+    if (!d.annual || !Array.isArray(d.monthly)) {
+        throw new Error("dashboard-data.json is missing the annual or monthly data.");
+    }
 
-    
-function auditAnnualTotals(data) {
-    const sum = (key) =>
-        data.monthly.reduce(
-            (total, month) => total + (Number(month[key]) || 0),
-            0
-        );
+    // 3. Render KPI cards.
+    document.getElementById("revenueKpi").textContent = money(d.annual.revenue);
+    document.getElementById("expensesKpi").textContent = money(d.annual.expenses);
+    document.getElementById("profitKpi").textContent = money(d.annual.profit);
+    document.getElementById("marginKpi").textContent = `${Number(d.annual.margin) || 0}%`;
+    document.getElementById("arKpi").textContent = money(d.annual.arOpen);
+    document.getElementById("apKpi").textContent = money(d.annual.apOpen);
 
-    const monthlyRevenue = sum("revenue");
-    const monthlyExpenses = sum("total_expenses");
-    const monthlyProfit = monthlyRevenue - monthlyExpenses;
-
-    const checks = [
-        {
-            metric: "Annual revenue",
-            annual: Number(data.annual.revenue),
-            monthly: monthlyRevenue
-        },
-        {
-            metric: "Annual expenses",
-            annual: Number(data.annual.expenses),
-            monthly: monthlyExpenses
-        },
-        {
-            metric: "Annual profit",
-            annual: Number(data.annual.profit),
-            monthly: monthlyProfit
-        }
-    ].map((item) => ({
-        ...item,
-        difference: item.monthly - item.annual,
-        matches: Math.abs(item.monthly - item.annual) < 0.01
-    }));
-
-    console.group("Annual Totals Integrity Check");
-    console.table(checks);
-    console.groupEnd();
-
-    return checks;
-}
-
-auditAnnualTotals(d);
-
-auditExpenseCategories(d);
-
-
-    // 2. Render KPI cards.
-    document.getElementById("revenueKpi").textContent =
-        money(d.annual.revenue);
-
-    document.getElementById("expensesKpi").textContent =
-        money(d.annual.expenses);
-
-    document.getElementById("profitKpi").textContent =
-        money(d.annual.profit);
-
-    document.getElementById("marginKpi").textContent =
-        `${Number(d.annual.margin) || 0}%`;
-
-    document.getElementById("arKpi").textContent =
-        money(d.annual.arOpen);
-
-    document.getElementById("apKpi").textContent =
-    money(d.annual.apOpen);
-
-    // 3. Render the monthly revenue and expense chart.
+    // 4. Render the monthly revenue and expense chart.
     const max = Math.max(
         1,
         ...d.monthly.map((item) =>
-            Math.max(
-                Number(item.revenue) || 0,
-                Number(item.total_expenses) || 0
-            )
+            Math.max(Number(item.revenue) || 0, Number(item.total_expenses) || 0)
         )
     );
 
-    document.getElementById("revenueChart").innerHTML =
-        d.monthly.map((item) => {
-            const revenue = Number(item.revenue) || 0;
-            const expenses = Number(item.total_expenses) || 0;
+    document.getElementById("revenueChart").innerHTML = d.monthly.map((item) => {
+        const revenue = Number(item.revenue) || 0;
+        const expenses = Number(item.total_expenses) || 0;
 
-            return `
-                <div
-                    class="bar-group"
-                    title="${escapeHtml(item.month)}: revenue ${money(revenue)}, expenses ${money(expenses)}"
-                >
-                    <div class="bars">
-                        <div
-                            class="bar rev"
-                            style="height:${revenue / max * 100}%"
-                        ></div>
-                        <div
-                            class="bar exp"
-                            style="height:${expenses / max * 100}%"
-                        ></div>
-                    </div>
-                    <span class="month-label">${escapeHtml(item.month || "")}</span>
+        return `
+            <div class="bar-group" title="${escapeHtml(item.month)}: revenue ${money(revenue)}, expenses ${money(expenses)}">
+                <div class="bars">
+                    <div class="bar rev" style="height:${revenue / max * 100}%"></div>
+                    <div class="bar exp" style="height:${expenses / max * 100}%"></div>
                 </div>
-            `;
-        }).join("");
+                <span class="month-label">${escapeHtml(item.month || "")}</span>
+            </div>
+        `;
+    }).join("");
 
-    // Render monthly financial details beneath the chart.
+    // 5. Render monthly financial details beneath the chart.
     const monthlyDetailsTable = document.getElementById("monthlyDetailsTable");
-
     if (monthlyDetailsTable) {
         monthlyDetailsTable.innerHTML = d.monthly.map((item) => {
             const monthRevenue = Number(item.revenue) || 0;
@@ -420,12 +349,9 @@ auditExpenseCategories(d);
         }).join("");
     }
 
-    // 4. Calculate annual P&L line items from monthly data.
+    // 6. Calculate annual P&L line items from monthly data.
     const sumMonthly = (key) =>
-        d.monthly.reduce(
-            (total, item) => total + (Number(item[key]) || 0),
-            0
-        );
+        d.monthly.reduce((total, item) => total + (Number(item[key]) || 0), 0);
 
     const revenue = Number(d.annual.revenue) || 0;
 
@@ -442,31 +368,24 @@ auditExpenseCategories(d);
     ].map((row) => [
         row[0],
         row[1],
-        revenue > 0 ? row[1] / revenue * 100 : 0
+        revenue > 0 ? (row[1] / revenue) * 100 : 0
     ]);
 
-    // 5. Render the P&L table, including percentages of revenue.
-    document.getElementById("pnlTable").innerHTML =
-        rows.map((row, index) => `
-            <tr class="${
-                index === 7 || index === 8 ? "total-row" : ""
-            }">
-                <td>${escapeHtml(row[0])}</td>
-                <td class="amount">${money(row[1])}</td>
-                <td>${row[2].toFixed(1)}%</td>
-            </tr>
-        `).join("");
+    // 7. Render the P&L table, including percentages of revenue.
+    document.getElementById("pnlTable").innerHTML = rows.map((row, index) => `
+        <tr class="${index === 7 || index === 8 ? "total-row" : ""}">
+            <td>${escapeHtml(row[0])}</td>
+            <td class="amount">${money(row[1])}</td>
+            <td>${row[2].toFixed(1)}%</td>
+        </tr>
+    `).join("");
 
-    // 6. Render the AR and AP tables.
-    document.getElementById("arTable").innerHTML =
-        renderOpenItems(d.accountsReceivable, "customer");
+    // 8. Render the AR and AP tables.
+    document.getElementById("arTable").innerHTML = renderOpenItems(d.accountsReceivable, "customer");
+    document.getElementById("apTable").innerHTML = renderOpenItems(d.accountsPayable, "supplier");
 
-    document.getElementById("apTable").innerHTML =
-        renderOpenItems(d.accountsPayable, "supplier");
-
-    // 7. Display the reporting snapshot date, if the element exists.
+    // 9. Display the reporting snapshot date, if the element exists.
     const snapshotElement = document.getElementById("snapshotDate");
-
     if (snapshotElement) {
         snapshotElement.textContent = "As of December 31, 2025";
     }
@@ -475,4 +394,3 @@ auditExpenseCategories(d);
 init().catch((error) => {
     console.error("Could not initialize the financial dashboard.", error);
 });
-
