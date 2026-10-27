@@ -4,11 +4,11 @@ A portfolio project demonstrating end-to-end financial reporting, data validatio
 
 ## Project links
 
-- **Live Dashboard:** [(https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio)]
-- **PDF Report:** [(https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/Northstar%20_%20Financial%20Performance%20Report.pdf)]
-- **Case Study:** [(https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/CASE_STUDY.md)]
-- **Source Code:** [(https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/source)]
-- **Screenshots:** [(https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/screenshots)]
+- **Live Dashboard:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio]
+- **PDF Report:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/Northstar%20_%20Financial%20Performance%20Report.pdf]
+- **Case Study:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/blob/main/Northstar_Portfolio/CASE_STUDY.md]
+- **Source Code:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/source]
+- **Screenshots:** [https://github.com/jshahi660/northstar-financial-reporting-dashboard/tree/main/Northstar_Portfolio/screenshots]
 
 ## Project overview
 
@@ -80,17 +80,39 @@ I built this as an independent portfolio project to demonstrate my approach to o
 
 The focus is on clear reporting, traceable figures, and validation—not on claiming client outcomes.
 
+---
 
 ## Data Cleanup & Spreadsheet Demo
+
 To demonstrate the data preparation and reconciliation process behind this dashboard, a simulated Excel workbook is provided. 
 
-* **Download the Demo Excel File:** [Northstar Spreadsheet Cleanup Demo](./Northstar_Spreadsheet_Cleanup_Portfolio_Demo.xlsx)
+**📥 [Download the Demo Excel File Here](Northstar_Portfolio/source/data/Northstar_Spreadsheet_Cleanup_Portfolio_Demo.xlsx)**
 
-**What is inside the Excel file?**
+### What is inside the Excel file?
 * `RAW_MESSY`: The original, unstructured data with mixed dates and typos.
 * `CLEAN_TRANSACTIONS`: The standardized, deduplicated data.
 * `QA_CHECKS`: The reconciliation checks ensuring Total Revenue equals $506,000 and Expenses equal $459,006.
 
-* ## Disclaimer
+### Visual Proof of Data Cleanup
+
+**1. The Raw Messy Data (Before)**
+*Notice the mixed date formats, typos, and blank rows.*
+![Raw Messy Data](Northstar_Portfolio/source/data/raw_messy.png)
+
+**2. The Clean Transactions (After)**
+*Standardized dates, clean categories, and ready for calculations.*
+![Clean Transactions](Northstar_Portfolio/source/data/clean_transactions.png)
+
+**3. QA Reconciliation Checks**
+*Proving that the cleaned data perfectly matches the final PDF report.*
+![QA Checks](Northstar_Portfolio/source/data/qa_check.png)
+
+**4. Monthly Summary & Profit/Loss**
+![Monthly Summary](Northstar_Portfolio/source/data/monthly_summary.png)
+![Profit and Loss](Northstar_Portfolio/source/data/profit_and_loss_summary.png)
+
+---
+
+## Disclaimer
 
 Northstar is a fictional business used for demonstration purposes. The data and financial results are illustrative, not audited, and should not be interpreted as investment, accounting, tax, or financial advice.
