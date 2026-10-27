@@ -1,0 +1,1528 @@
+{
+  "company": "Northstar Business Services LLC",
+  "period": "January 1 – December 31, 2025",
+  "currency": "USD",
+  "notice": "Fictional portfolio dataset. Not audited financial information.",
+  "monthly": [
+    {
+      "month": "Jan",
+      "revenue": 32000,
+      "cost_of_services": 9280.0,
+      "payroll": 14500,
+      "marketing": 2200,
+      "rent": 4200,
+      "software": 1150,
+      "admin": 1800,
+      "total_expenses": 33130.0,
+      "net_profit": -1130.0,
+      "budget_revenue": 30720.0
+    },
+    {
+      "month": "Feb",
+      "revenue": 35000,
+      "cost_of_services": 10360.0,
+      "payroll": 14600,
+      "marketing": 2400,
+      "rent": 4200,
+      "software": 1175,
+      "admin": 1900,
+      "total_expenses": 34635.0,
+      "net_profit": 365.0,
+      "budget_revenue": 33600.0
+    },
+    {
+      "month": "Mar",
+      "revenue": 37000,
+      "cost_of_services": 11174.0,
+      "payroll": 14750,
+      "marketing": 2100,
+      "rent": 4200,
+      "software": 1175,
+      "admin": 1750,
+      "total_expenses": 35149.0,
+      "net_profit": 1851.0,
+      "budget_revenue": 35520.0
+    },
+    {
+      "month": "Apr",
+      "revenue": 38000,
+      "cost_of_services": 11704.0,
+      "payroll": 14900,
+      "marketing": 2600,
+      "rent": 4200,
+      "software": 1200,
+      "admin": 2000,
+      "total_expenses": 36604.0,
+      "net_profit": 1396.0,
+      "budget_revenue": 38380.0
+    },
+    {
+      "month": "May",
+      "revenue": 40000,
+      "cost_of_services": 11600.0,
+      "payroll": 15000,
+      "marketing": 2500,
+      "rent": 4200,
+      "software": 1225,
+      "admin": 1950,
+      "total_expenses": 36475.0,
+      "net_profit": 3525.0,
+      "budget_revenue": 38400.0
+    },
+    {
+      "month": "Jun",
+      "revenue": 42000,
+      "cost_of_services": 12432.0,
+      "payroll": 15200,
+      "marketing": 2800,
+      "rent": 4200,
+      "software": 1250,
+      "admin": 2100,
+      "total_expenses": 37982.0,
+      "net_profit": 4018.0,
+      "budget_revenue": 40320.0
+    },
+    {
+      "month": "Jul",
+      "revenue": 43000,
+      "cost_of_services": 12986.0,
+      "payroll": 15300,
+      "marketing": 2700,
+      "rent": 4200,
+      "software": 1275,
+      "admin": 2050,
+      "total_expenses": 38511.0,
+      "net_profit": 4489.0,
+      "budget_revenue": 41280.0
+    },
+    {
+      "month": "Aug",
+      "revenue": 44500,
+      "cost_of_services": 13706.0,
+      "payroll": 15500,
+      "marketing": 2900,
+      "rent": 4200,
+      "software": 1300,
+      "admin": 2200,
+      "total_expenses": 39806.0,
+      "net_profit": 4694.0,
+      "budget_revenue": 44945.0
+    },
+    {
+      "month": "Sep",
+      "revenue": 46000,
+      "cost_of_services": 13340.0,
+      "payroll": 15700,
+      "marketing": 3000,
+      "rent": 4200,
+      "software": 1325,
+      "admin": 2150,
+      "total_expenses": 39715.0,
+      "net_profit": 6285.0,
+      "budget_revenue": 44160.0
+    },
+    {
+      "month": "Oct",
+      "revenue": 47500,
+      "cost_of_services": 14060.0,
+      "payroll": 15800,
+      "marketing": 3100,
+      "rent": 4200,
+      "software": 1350,
+      "admin": 2300,
+      "total_expenses": 40810.0,
+      "net_profit": 6690.0,
+      "budget_revenue": 45600.0
+    },
+    {
+      "month": "Nov",
+      "revenue": 49000,
+      "cost_of_services": 14798.0,
+      "payroll": 16000,
+      "marketing": 3300,
+      "rent": 4200,
+      "software": 1375,
+      "admin": 2400,
+      "total_expenses": 42073.0,
+      "net_profit": 6927.0,
+      "budget_revenue": 47040.0
+    },
+    {
+      "month": "Dec",
+      "revenue": 52000,
+      "cost_of_services": 16016.0,
+      "payroll": 16300,
+      "marketing": 3600,
+      "rent": 4200,
+      "software": 1400,
+      "admin": 2600,
+      "total_expenses": 44116.0,
+      "net_profit": 7884.0,
+      "budget_revenue": 52520.0
+    }
+  ],
+  "accountsReceivable": [
+    {
+      "invoice_id": "AR-2025-0001",
+      "customer": "Apex Retail Group",
+      "invoice_date": "2025-01-08",
+      "due_date": "2025-02-07",
+      "invoice_amount": 1850,
+      "amount_paid": 1850,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0002",
+      "customer": "Blue Oak Medical",
+      "invoice_date": "2025-01-17",
+      "due_date": "2025-02-16",
+      "invoice_amount": 2400,
+      "amount_paid": 2400,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0003",
+      "customer": "Cedar Peak Logistics",
+      "invoice_date": "2025-01-26",
+      "due_date": "2025-02-25",
+      "invoice_amount": 3200,
+      "amount_paid": 0,
+      "open_balance": 3200,
+      "status": "Overdue",
+      "days_overdue": 324
+    },
+    {
+      "invoice_id": "AR-2025-0004",
+      "customer": "Delta Design Studio",
+      "invoice_date": "2025-02-04",
+      "due_date": "2025-03-06",
+      "invoice_amount": 4100,
+      "amount_paid": 0,
+      "open_balance": 4100,
+      "status": "Overdue",
+      "days_overdue": 315
+    },
+    {
+      "invoice_id": "AR-2025-0005",
+      "customer": "Evergreen Hospitality",
+      "invoice_date": "2025-02-13",
+      "due_date": "2025-03-15",
+      "invoice_amount": 2750,
+      "amount_paid": 0,
+      "open_balance": 2750,
+      "status": "Overdue",
+      "days_overdue": 306
+    },
+    {
+      "invoice_id": "AR-2025-0006",
+      "customer": "Frontier Learning Co.",
+      "invoice_date": "2025-02-22",
+      "due_date": "2025-03-24",
+      "invoice_amount": 5600,
+      "amount_paid": 5600,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0007",
+      "customer": "Granite Property Partners",
+      "invoice_date": "2025-03-03",
+      "due_date": "2025-04-02",
+      "invoice_amount": 1950,
+      "amount_paid": 1950,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0008",
+      "customer": "Harborview Consulting",
+      "invoice_date": "2025-03-12",
+      "due_date": "2025-04-11",
+      "invoice_amount": 3650,
+      "amount_paid": 3650,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0009",
+      "customer": "Ironwood Manufacturing",
+      "invoice_date": "2025-03-21",
+      "due_date": "2025-04-20",
+      "invoice_amount": 4800,
+      "amount_paid": 0,
+      "open_balance": 4800,
+      "status": "Overdue",
+      "days_overdue": 270
+    },
+    {
+      "invoice_id": "AR-2025-0010",
+      "customer": "Juniper Food Markets",
+      "invoice_date": "2025-03-30",
+      "due_date": "2025-04-29",
+      "invoice_amount": 2250,
+      "amount_paid": 0,
+      "open_balance": 2250,
+      "status": "Overdue",
+      "days_overdue": 261
+    },
+    {
+      "invoice_id": "AR-2025-0011",
+      "customer": "Keystone Wellness",
+      "invoice_date": "2025-04-08",
+      "due_date": "2025-05-08",
+      "invoice_amount": 6100,
+      "amount_paid": 6100,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0012",
+      "customer": "Lighthouse Media",
+      "invoice_date": "2025-04-17",
+      "due_date": "2025-05-17",
+      "invoice_amount": 2900,
+      "amount_paid": 2900,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0013",
+      "customer": "Apex Retail Group",
+      "invoice_date": "2025-04-26",
+      "due_date": "2025-05-26",
+      "invoice_amount": 1850,
+      "amount_paid": 0,
+      "open_balance": 1850,
+      "status": "Overdue",
+      "days_overdue": 234
+    },
+    {
+      "invoice_id": "AR-2025-0014",
+      "customer": "Blue Oak Medical",
+      "invoice_date": "2025-05-05",
+      "due_date": "2025-06-04",
+      "invoice_amount": 2400,
+      "amount_paid": 0,
+      "open_balance": 2400,
+      "status": "Overdue",
+      "days_overdue": 225
+    },
+    {
+      "invoice_id": "AR-2025-0015",
+      "customer": "Cedar Peak Logistics",
+      "invoice_date": "2025-05-14",
+      "due_date": "2025-06-13",
+      "invoice_amount": 3200,
+      "amount_paid": 3200,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0016",
+      "customer": "Delta Design Studio",
+      "invoice_date": "2025-05-23",
+      "due_date": "2025-06-22",
+      "invoice_amount": 4100,
+      "amount_paid": 4100,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0017",
+      "customer": "Evergreen Hospitality",
+      "invoice_date": "2025-06-01",
+      "due_date": "2025-07-01",
+      "invoice_amount": 2750,
+      "amount_paid": 2750,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0018",
+      "customer": "Frontier Learning Co.",
+      "invoice_date": "2025-06-10",
+      "due_date": "2025-07-10",
+      "invoice_amount": 5600,
+      "amount_paid": 0,
+      "open_balance": 5600,
+      "status": "Overdue",
+      "days_overdue": 189
+    },
+    {
+      "invoice_id": "AR-2025-0019",
+      "customer": "Granite Property Partners",
+      "invoice_date": "2025-06-19",
+      "due_date": "2025-07-19",
+      "invoice_amount": 1950,
+      "amount_paid": 0,
+      "open_balance": 1950,
+      "status": "Overdue",
+      "days_overdue": 180
+    },
+    {
+      "invoice_id": "AR-2025-0020",
+      "customer": "Harborview Consulting",
+      "invoice_date": "2025-06-28",
+      "due_date": "2025-07-28",
+      "invoice_amount": 3650,
+      "amount_paid": 0,
+      "open_balance": 3650,
+      "status": "Overdue",
+      "days_overdue": 171
+    },
+    {
+      "invoice_id": "AR-2025-0021",
+      "customer": "Ironwood Manufacturing",
+      "invoice_date": "2025-07-07",
+      "due_date": "2025-08-06",
+      "invoice_amount": 4800,
+      "amount_paid": 4800,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0022",
+      "customer": "Juniper Food Markets",
+      "invoice_date": "2025-07-16",
+      "due_date": "2025-08-15",
+      "invoice_amount": 2250,
+      "amount_paid": 2250,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0023",
+      "customer": "Keystone Wellness",
+      "invoice_date": "2025-07-25",
+      "due_date": "2025-08-24",
+      "invoice_amount": 6100,
+      "amount_paid": 0,
+      "open_balance": 6100,
+      "status": "Overdue",
+      "days_overdue": 144
+    },
+    {
+      "invoice_id": "AR-2025-0024",
+      "customer": "Lighthouse Media",
+      "invoice_date": "2025-08-03",
+      "due_date": "2025-09-02",
+      "invoice_amount": 2900,
+      "amount_paid": 2900,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0025",
+      "customer": "Apex Retail Group",
+      "invoice_date": "2025-08-12",
+      "due_date": "2025-09-11",
+      "invoice_amount": 1850,
+      "amount_paid": 0,
+      "open_balance": 1850,
+      "status": "Overdue",
+      "days_overdue": 126
+    },
+    {
+      "invoice_id": "AR-2025-0026",
+      "customer": "Blue Oak Medical",
+      "invoice_date": "2025-08-21",
+      "due_date": "2025-09-20",
+      "invoice_amount": 2400,
+      "amount_paid": 2400,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0027",
+      "customer": "Cedar Peak Logistics",
+      "invoice_date": "2025-08-30",
+      "due_date": "2025-09-29",
+      "invoice_amount": 3200,
+      "amount_paid": 3200,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0028",
+      "customer": "Delta Design Studio",
+      "invoice_date": "2025-09-08",
+      "due_date": "2025-10-08",
+      "invoice_amount": 4100,
+      "amount_paid": 0,
+      "open_balance": 4100,
+      "status": "Overdue",
+      "days_overdue": 99
+    },
+    {
+      "invoice_id": "AR-2025-0029",
+      "customer": "Evergreen Hospitality",
+      "invoice_date": "2025-09-17",
+      "due_date": "2025-10-17",
+      "invoice_amount": 2750,
+      "amount_paid": 0,
+      "open_balance": 2750,
+      "status": "Overdue",
+      "days_overdue": 90
+    },
+    {
+      "invoice_id": "AR-2025-0030",
+      "customer": "Frontier Learning Co.",
+      "invoice_date": "2025-09-26",
+      "due_date": "2025-10-26",
+      "invoice_amount": 5600,
+      "amount_paid": 0,
+      "open_balance": 5600,
+      "status": "Overdue",
+      "days_overdue": 81
+    },
+    {
+      "invoice_id": "AR-2025-0031",
+      "customer": "Granite Property Partners",
+      "invoice_date": "2025-10-05",
+      "due_date": "2025-11-04",
+      "invoice_amount": 1950,
+      "amount_paid": 1950,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0032",
+      "customer": "Harborview Consulting",
+      "invoice_date": "2025-10-14",
+      "due_date": "2025-11-13",
+      "invoice_amount": 3650,
+      "amount_paid": 3650,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "invoice_id": "AR-2025-0033",
+      "customer": "Ironwood Manufacturing",
+      "invoice_date": "2025-10-23",
+      "due_date": "2025-11-22",
+      "invoice_amount": 4800,
+      "amount_paid": 0,
+      "open_balance": 4800,
+      "status": "Overdue",
+      "days_overdue": 54
+    },
+    {
+      "invoice_id": "AR-2025-0034",
+      "customer": "Juniper Food Markets",
+      "invoice_date": "2025-11-01",
+      "due_date": "2025-12-01",
+      "invoice_amount": 2250,
+      "amount_paid": 0,
+      "open_balance": 2250,
+      "status": "Overdue",
+      "days_overdue": 45
+    },
+    {
+      "invoice_id": "AR-2025-0035",
+      "customer": "Keystone Wellness",
+      "invoice_date": "2025-11-10",
+      "due_date": "2025-12-10",
+      "invoice_amount": 6100,
+      "amount_paid": 0,
+      "open_balance": 6100,
+      "status": "Overdue",
+      "days_overdue": 36
+    },
+    {
+      "invoice_id": "AR-2025-0036",
+      "customer": "Lighthouse Media",
+      "invoice_date": "2025-11-19",
+      "due_date": "2025-12-19",
+      "invoice_amount": 2900,
+      "amount_paid": 2900,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    }
+  ],
+  "accountsPayable": [
+    {
+      "bill_id": "AP-2025-0001",
+      "supplier": "Cloudline Software",
+      "bill_date": "2025-01-04",
+      "due_date": "2025-02-03",
+      "bill_amount": 450,
+      "amount_paid": 0,
+      "open_balance": 450,
+      "status": "Overdue",
+      "days_overdue": 346
+    },
+    {
+      "bill_id": "AP-2025-0002",
+      "supplier": "Metro Office Leasing",
+      "bill_date": "2025-01-15",
+      "due_date": "2025-02-14",
+      "bill_amount": 1250,
+      "amount_paid": 1250,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0003",
+      "supplier": "Pioneer Contractors",
+      "bill_date": "2025-01-26",
+      "due_date": "2025-02-25",
+      "bill_amount": 2850,
+      "amount_paid": 2850,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0004",
+      "supplier": "Summit Utilities",
+      "bill_date": "2025-02-06",
+      "due_date": "2025-03-08",
+      "bill_amount": 780,
+      "amount_paid": 780,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0005",
+      "supplier": "Westfield Marketing",
+      "bill_date": "2025-02-17",
+      "due_date": "2025-03-19",
+      "bill_amount": 1950,
+      "amount_paid": 0,
+      "open_balance": 1950,
+      "status": "Overdue",
+      "days_overdue": 302
+    },
+    {
+      "bill_id": "AP-2025-0006",
+      "supplier": "Zenith Equipment",
+      "bill_date": "2025-02-28",
+      "due_date": "2025-03-30",
+      "bill_amount": 3200,
+      "amount_paid": 3200,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0007",
+      "supplier": "Cloudline Software",
+      "bill_date": "2025-03-11",
+      "due_date": "2025-04-10",
+      "bill_amount": 620,
+      "amount_paid": 620,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0008",
+      "supplier": "Metro Office Leasing",
+      "bill_date": "2025-03-22",
+      "due_date": "2025-04-21",
+      "bill_amount": 1480,
+      "amount_paid": 1480,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0009",
+      "supplier": "Pioneer Contractors",
+      "bill_date": "2025-04-02",
+      "due_date": "2025-05-02",
+      "bill_amount": 2100,
+      "amount_paid": 0,
+      "open_balance": 2100,
+      "status": "Overdue",
+      "days_overdue": 258
+    },
+    {
+      "bill_id": "AP-2025-0010",
+      "supplier": "Summit Utilities",
+      "bill_date": "2025-04-13",
+      "due_date": "2025-05-13",
+      "bill_amount": 960,
+      "amount_paid": 960,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0011",
+      "supplier": "Westfield Marketing",
+      "bill_date": "2025-04-24",
+      "due_date": "2025-05-24",
+      "bill_amount": 450,
+      "amount_paid": 450,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0012",
+      "supplier": "Zenith Equipment",
+      "bill_date": "2025-05-05",
+      "due_date": "2025-06-04",
+      "bill_amount": 1250,
+      "amount_paid": 1250,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0013",
+      "supplier": "Cloudline Software",
+      "bill_date": "2025-05-16",
+      "due_date": "2025-06-15",
+      "bill_amount": 2850,
+      "amount_paid": 0,
+      "open_balance": 2850,
+      "status": "Overdue",
+      "days_overdue": 214
+    },
+    {
+      "bill_id": "AP-2025-0014",
+      "supplier": "Metro Office Leasing",
+      "bill_date": "2025-05-27",
+      "due_date": "2025-06-26",
+      "bill_amount": 780,
+      "amount_paid": 780,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0015",
+      "supplier": "Pioneer Contractors",
+      "bill_date": "2025-06-07",
+      "due_date": "2025-07-07",
+      "bill_amount": 1950,
+      "amount_paid": 1950,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0016",
+      "supplier": "Summit Utilities",
+      "bill_date": "2025-06-18",
+      "due_date": "2025-07-18",
+      "bill_amount": 3200,
+      "amount_paid": 3200,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0017",
+      "supplier": "Westfield Marketing",
+      "bill_date": "2025-06-29",
+      "due_date": "2025-07-29",
+      "bill_amount": 620,
+      "amount_paid": 0,
+      "open_balance": 620,
+      "status": "Overdue",
+      "days_overdue": 170
+    },
+    {
+      "bill_id": "AP-2025-0018",
+      "supplier": "Zenith Equipment",
+      "bill_date": "2025-07-10",
+      "due_date": "2025-08-09",
+      "bill_amount": 1480,
+      "amount_paid": 1480,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0019",
+      "supplier": "Cloudline Software",
+      "bill_date": "2025-07-21",
+      "due_date": "2025-08-20",
+      "bill_amount": 2100,
+      "amount_paid": 2100,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0020",
+      "supplier": "Metro Office Leasing",
+      "bill_date": "2025-08-01",
+      "due_date": "2025-08-31",
+      "bill_amount": 960,
+      "amount_paid": 960,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0021",
+      "supplier": "Pioneer Contractors",
+      "bill_date": "2025-08-12",
+      "due_date": "2025-09-11",
+      "bill_amount": 450,
+      "amount_paid": 0,
+      "open_balance": 450,
+      "status": "Overdue",
+      "days_overdue": 126
+    },
+    {
+      "bill_id": "AP-2025-0022",
+      "supplier": "Summit Utilities",
+      "bill_date": "2025-08-23",
+      "due_date": "2025-09-22",
+      "bill_amount": 1250,
+      "amount_paid": 1250,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0023",
+      "supplier": "Westfield Marketing",
+      "bill_date": "2025-09-03",
+      "due_date": "2025-10-03",
+      "bill_amount": 2850,
+      "amount_paid": 2850,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0024",
+      "supplier": "Zenith Equipment",
+      "bill_date": "2025-09-14",
+      "due_date": "2025-10-14",
+      "bill_amount": 780,
+      "amount_paid": 780,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0025",
+      "supplier": "Cloudline Software",
+      "bill_date": "2025-09-25",
+      "due_date": "2025-10-25",
+      "bill_amount": 1950,
+      "amount_paid": 0,
+      "open_balance": 1950,
+      "status": "Overdue",
+      "days_overdue": 82
+    },
+    {
+      "bill_id": "AP-2025-0026",
+      "supplier": "Metro Office Leasing",
+      "bill_date": "2025-10-06",
+      "due_date": "2025-11-05",
+      "bill_amount": 3200,
+      "amount_paid": 3200,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0027",
+      "supplier": "Pioneer Contractors",
+      "bill_date": "2025-10-17",
+      "due_date": "2025-11-16",
+      "bill_amount": 620,
+      "amount_paid": 620,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0028",
+      "supplier": "Summit Utilities",
+      "bill_date": "2025-10-28",
+      "due_date": "2025-11-27",
+      "bill_amount": 1480,
+      "amount_paid": 1480,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    },
+    {
+      "bill_id": "AP-2025-0029",
+      "supplier": "Westfield Marketing",
+      "bill_date": "2025-11-08",
+      "due_date": "2025-12-08",
+      "bill_amount": 2100,
+      "amount_paid": 0,
+      "open_balance": 2100,
+      "status": "Overdue",
+      "days_overdue": 38
+    },
+    {
+      "bill_id": "AP-2025-0030",
+      "supplier": "Zenith Equipment",
+      "bill_date": "2025-11-19",
+      "due_date": "2025-12-19",
+      "bill_amount": 960,
+      "amount_paid": 960,
+      "open_balance": 0,
+      "status": "Paid",
+      "days_overdue": 0
+    }
+  ],
+  "balanceSheet": [
+    {
+      "section": "Assets",
+      "account": "Cash and cash equivalents",
+      "amount": 78500
+    },
+    {
+      "section": "Assets",
+      "account": "Accounts receivable",
+      "amount": 66100.0
+    },
+    {
+      "section": "Assets",
+      "account": "Prepaid expenses",
+      "amount": 8400
+    },
+    {
+      "section": "Assets",
+      "account": "Equipment, net",
+      "amount": 68500
+    },
+    {
+      "section": "Liabilities",
+      "account": "Accounts payable",
+      "amount": 12470.0
+    },
+    {
+      "section": "Liabilities",
+      "account": "Accrued payroll",
+      "amount": 12400
+    },
+    {
+      "section": "Liabilities",
+      "account": "Business credit line",
+      "amount": 18000
+    },
+    {
+      "section": "Equity",
+      "account": "Owner's equity",
+      "amount": 95000
+    },
+    {
+      "section": "Equity",
+      "account": "Retained earnings",
+      "amount": 83630.0
+    }
+  ],
+  "cashFlow": [
+    {
+      "period": "2025",
+      "category": "Operating activities",
+      "amount": 57994.0
+    },
+    {
+      "period": "2025",
+      "category": "Investing activities",
+      "amount": -18500
+    },
+    {
+      "period": "2025",
+      "category": "Financing activities",
+      "amount": -7200
+    }
+  ],
+  "ledger": [
+    {
+      "transaction_id": "GL-00001",
+      "date": "2025-01-05",
+      "description": "Revenue entry - Jan 2025",
+      "account_code": "1100",
+      "account_name": "Accounts Receivable",
+      "debit": 32000,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00001",
+      "date": "2025-01-05",
+      "description": "Revenue entry - Jan 2025",
+      "account_code": "4000",
+      "account_name": "Service Revenue",
+      "debit": 0,
+      "credit": 32000,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00002",
+      "date": "2025-01-05",
+      "description": "Cost entry - Jan 2025",
+      "account_code": "5000",
+      "account_name": "Cost of Services",
+      "debit": 9280.0,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00002",
+      "date": "2025-01-05",
+      "description": "Cost entry - Jan 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 9280.0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00003",
+      "date": "2025-01-05",
+      "description": "Payroll entry - Jan 2025",
+      "account_code": "5100",
+      "account_name": "Payroll Expense",
+      "debit": 14500,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00003",
+      "date": "2025-01-05",
+      "description": "Payroll entry - Jan 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 14500,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00004",
+      "date": "2025-01-05",
+      "description": "Marketing entry - Jan 2025",
+      "account_code": "5200",
+      "account_name": "Marketing Expense",
+      "debit": 2200,
+      "credit": 0,
+      "department": "Sales & Marketing"
+    },
+    {
+      "transaction_id": "GL-00004",
+      "date": "2025-01-05",
+      "description": "Marketing entry - Jan 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 2200,
+      "department": "Sales & Marketing"
+    },
+    {
+      "transaction_id": "GL-00005",
+      "date": "2025-01-05",
+      "description": "Rent entry - Jan 2025",
+      "account_code": "5300",
+      "account_name": "Office Rent",
+      "debit": 4200,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00005",
+      "date": "2025-01-05",
+      "description": "Rent entry - Jan 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 4200,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00006",
+      "date": "2025-01-05",
+      "description": "Software entry - Jan 2025",
+      "account_code": "5400",
+      "account_name": "Software & Subscriptions",
+      "debit": 1150,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00006",
+      "date": "2025-01-05",
+      "description": "Software entry - Jan 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 1150,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00007",
+      "date": "2025-01-05",
+      "description": "Admin entry - Jan 2025",
+      "account_code": "5500",
+      "account_name": "General & Administrative",
+      "debit": 1800,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00007",
+      "date": "2025-01-05",
+      "description": "Admin entry - Jan 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 1800,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00008",
+      "date": "2025-02-05",
+      "description": "Revenue entry - Feb 2025",
+      "account_code": "1100",
+      "account_name": "Accounts Receivable",
+      "debit": 35000,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00008",
+      "date": "2025-02-05",
+      "description": "Revenue entry - Feb 2025",
+      "account_code": "4000",
+      "account_name": "Service Revenue",
+      "debit": 0,
+      "credit": 35000,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00009",
+      "date": "2025-02-05",
+      "description": "Cost entry - Feb 2025",
+      "account_code": "5000",
+      "account_name": "Cost of Services",
+      "debit": 10360.0,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00009",
+      "date": "2025-02-05",
+      "description": "Cost entry - Feb 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 10360.0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00010",
+      "date": "2025-02-05",
+      "description": "Payroll entry - Feb 2025",
+      "account_code": "5100",
+      "account_name": "Payroll Expense",
+      "debit": 14600,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00010",
+      "date": "2025-02-05",
+      "description": "Payroll entry - Feb 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 14600,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00011",
+      "date": "2025-02-05",
+      "description": "Marketing entry - Feb 2025",
+      "account_code": "5200",
+      "account_name": "Marketing Expense",
+      "debit": 2400,
+      "credit": 0,
+      "department": "Sales & Marketing"
+    },
+    {
+      "transaction_id": "GL-00011",
+      "date": "2025-02-05",
+      "description": "Marketing entry - Feb 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 2400,
+      "department": "Sales & Marketing"
+    },
+    {
+      "transaction_id": "GL-00012",
+      "date": "2025-02-05",
+      "description": "Rent entry - Feb 2025",
+      "account_code": "5300",
+      "account_name": "Office Rent",
+      "debit": 4200,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00012",
+      "date": "2025-02-05",
+      "description": "Rent entry - Feb 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 4200,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00013",
+      "date": "2025-02-05",
+      "description": "Software entry - Feb 2025",
+      "account_code": "5400",
+      "account_name": "Software & Subscriptions",
+      "debit": 1175,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00013",
+      "date": "2025-02-05",
+      "description": "Software entry - Feb 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 1175,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00014",
+      "date": "2025-02-05",
+      "description": "Admin entry - Feb 2025",
+      "account_code": "5500",
+      "account_name": "General & Administrative",
+      "debit": 1900,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00014",
+      "date": "2025-02-05",
+      "description": "Admin entry - Feb 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 1900,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00015",
+      "date": "2025-03-05",
+      "description": "Revenue entry - Mar 2025",
+      "account_code": "1100",
+      "account_name": "Accounts Receivable",
+      "debit": 37000,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00015",
+      "date": "2025-03-05",
+      "description": "Revenue entry - Mar 2025",
+      "account_code": "4000",
+      "account_name": "Service Revenue",
+      "debit": 0,
+      "credit": 37000,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00016",
+      "date": "2025-03-05",
+      "description": "Cost entry - Mar 2025",
+      "account_code": "5000",
+      "account_name": "Cost of Services",
+      "debit": 11174.0,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00016",
+      "date": "2025-03-05",
+      "description": "Cost entry - Mar 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 11174.0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00017",
+      "date": "2025-03-05",
+      "description": "Payroll entry - Mar 2025",
+      "account_code": "5100",
+      "account_name": "Payroll Expense",
+      "debit": 14750,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00017",
+      "date": "2025-03-05",
+      "description": "Payroll entry - Mar 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 14750,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00018",
+      "date": "2025-03-05",
+      "description": "Marketing entry - Mar 2025",
+      "account_code": "5200",
+      "account_name": "Marketing Expense",
+      "debit": 2100,
+      "credit": 0,
+      "department": "Sales & Marketing"
+    },
+    {
+      "transaction_id": "GL-00018",
+      "date": "2025-03-05",
+      "description": "Marketing entry - Mar 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 2100,
+      "department": "Sales & Marketing"
+    },
+    {
+      "transaction_id": "GL-00019",
+      "date": "2025-03-05",
+      "description": "Rent entry - Mar 2025",
+      "account_code": "5300",
+      "account_name": "Office Rent",
+      "debit": 4200,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00019",
+      "date": "2025-03-05",
+      "description": "Rent entry - Mar 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 4200,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00020",
+      "date": "2025-03-05",
+      "description": "Software entry - Mar 2025",
+      "account_code": "5400",
+      "account_name": "Software & Subscriptions",
+      "debit": 1175,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00020",
+      "date": "2025-03-05",
+      "description": "Software entry - Mar 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 1175,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00021",
+      "date": "2025-03-05",
+      "description": "Admin entry - Mar 2025",
+      "account_code": "5500",
+      "account_name": "General & Administrative",
+      "debit": 1750,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00021",
+      "date": "2025-03-05",
+      "description": "Admin entry - Mar 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 1750,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00022",
+      "date": "2025-04-05",
+      "description": "Revenue entry - Apr 2025",
+      "account_code": "1100",
+      "account_name": "Accounts Receivable",
+      "debit": 38000,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00022",
+      "date": "2025-04-05",
+      "description": "Revenue entry - Apr 2025",
+      "account_code": "4000",
+      "account_name": "Service Revenue",
+      "debit": 0,
+      "credit": 38000,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00023",
+      "date": "2025-04-05",
+      "description": "Cost entry - Apr 2025",
+      "account_code": "5000",
+      "account_name": "Cost of Services",
+      "debit": 11704.0,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00023",
+      "date": "2025-04-05",
+      "description": "Cost entry - Apr 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 11704.0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00024",
+      "date": "2025-04-05",
+      "description": "Payroll entry - Apr 2025",
+      "account_code": "5100",
+      "account_name": "Payroll Expense",
+      "debit": 14900,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00024",
+      "date": "2025-04-05",
+      "description": "Payroll entry - Apr 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 14900,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00025",
+      "date": "2025-04-05",
+      "description": "Marketing entry - Apr 2025",
+      "account_code": "5200",
+      "account_name": "Marketing Expense",
+      "debit": 2600,
+      "credit": 0,
+      "department": "Sales & Marketing"
+    },
+    {
+      "transaction_id": "GL-00025",
+      "date": "2025-04-05",
+      "description": "Marketing entry - Apr 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 2600,
+      "department": "Sales & Marketing"
+    },
+    {
+      "transaction_id": "GL-00026",
+      "date": "2025-04-05",
+      "description": "Rent entry - Apr 2025",
+      "account_code": "5300",
+      "account_name": "Office Rent",
+      "debit": 4200,
+      "credit": 0,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00026",
+      "date": "2025-04-05",
+      "description": "Rent entry - Apr 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 4200,
+      "department": "Operations"
+    },
+    {
+      "transaction_id": "GL-00027",
+      "date": "2025-04-05",
+      "description": "Software entry - Apr 2025",
+      "account_code": "5400",
+      "account_name": "Software & Subscriptions",
+      "debit": 1200,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00027",
+      "date": "2025-04-05",
+      "description": "Software entry - Apr 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 1200,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00028",
+      "date": "2025-04-05",
+      "description": "Admin entry - Apr 2025",
+      "account_code": "5500",
+      "account_name": "General & Administrative",
+      "debit": 2000,
+      "credit": 0,
+      "department": "General"
+    },
+    {
+      "transaction_id": "GL-00028",
+      "date": "2025-04-05",
+      "description": "Admin entry - Apr 2025",
+      "account_code": "1000",
+      "account_name": "Operating Checking",
+      "debit": 0,
+      "credit": 2000,
+      "department": "General"
+    }
+  ],
+  "annual": {
+    "revenue": 506000.0,
+    "expenses": 459006.0,
+    "profit": 46994.0,
+    "margin": 9.3,
+    "arOpen": 66100.0,
+    "apOpen": 12470.0
+  }
+}
