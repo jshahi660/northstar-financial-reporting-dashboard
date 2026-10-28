@@ -1,4 +1,4 @@
-# 🚀 [CLICK HERE TO VIEW THE LIVE INTERACTIVE DASHBOARD](https://jshahi660.github.io/northstar-financial-reporting-dashboard/Northstar_Portfolio/source/index.html)
+# 🚀 [CLICK HERE TO VIEW THE LIVE INTERACTIVE DASHBOARD](https://jshahi660.github.io/northstar-financial-reporting-dashboard/)
 
 ---
 
